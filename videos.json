@@ -1,6 +1,38 @@
 {
-  "version": "2026.10.14",
+  "version": "2026.10.18",
   "videos": [
+    {
+      "id": "daily-knee-hip-mobility-series-for-ultimate-frisbee",
+      "title": "Daily Knee & Hip Mobility Series for Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=_u6A2JsMqJU",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 996,
+      "dateAdded": "2026-10-18",
+      "description": "✅ Less Pain, More Power for Ultimate Frisbee:",
+      "creator": "Brian Nevison"
+    },
+    {
+      "id": "how-to-improve-your-forehand-accuracy-in-ultimate-frisbee",
+      "title": "How to Improve Your Forehand Accuracy in Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=UbvFu6AX4Hk",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 77,
+      "dateAdded": "2026-10-18",
+      "creator": "Eric Deng – That Ultimate Coach 🥏"
+    },
+    {
+      "id": "how-canada-won-gold",
+      "title": "How Canada Won GOLD",
+      "embedURL": "https://www.youtube.com/watch?v=2ylwEyQLWoA",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 64,
+      "dateAdded": "2026-10-18",
+      "description": "Do you want to be an elite thrower?",
+      "creator": "Rowan McDonnell"
+    },
     {
       "id": "this-one-point-at-frisbee-worlds-had-everything",
       "title": "This ONE Point at Frisbee Worlds Had EVERYTHING?!",
