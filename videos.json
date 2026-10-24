@@ -1,6 +1,28 @@
 {
-  "version": "2026.10.18",
+  "version": "2026.10.24",
   "videos": [
+    {
+      "id": "universe-point-riot-vs-bent",
+      "title": "Universe Point: Riot vs. BENT",
+      "embedURL": "https://www.youtube.com/watch?v=JQc8rI-Po8c",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 45,
+      "dateAdded": "2026-10-24",
+      "description": "Check out the universe point finish in this Women's Division Pool Play matchup between Seattle Riot and New York BENT at the 2026 Club National Championships!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
+    {
+      "id": "can-anyone-stop-these-frisbee-champions",
+      "title": "Can ANYONE Stop These Frisbee Champions?!",
+      "embedURL": "https://www.youtube.com/watch?v=NTXJT2jTyPA",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 812,
+      "dateAdded": "2026-10-24",
+      "description": "Club nationals is here!",
+      "creator": "Ulti Von"
+    },
     {
       "id": "daily-knee-hip-mobility-series-for-ultimate-frisbee",
       "title": "Daily Knee & Hip Mobility Series for Ultimate Frisbee",
