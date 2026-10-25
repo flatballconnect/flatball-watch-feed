@@ -1,6 +1,49 @@
 {
-  "version": "2026.10.24",
+  "version": "2026.10.25",
   "videos": [
+    {
+      "id": "best-of-club-nationals-pool-play-2026",
+      "title": "Best Of Club Nationals Pool Play 2026",
+      "embedURL": "https://www.youtube.com/watch?v=fnGW6DqjU7o",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 232,
+      "dateAdded": "2026-10-25",
+      "description": "Check out highlights from Day 1 of the 2026 Club Championships!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
+    {
+      "id": "improve-your-top-speed-for-ultimate-frisbee",
+      "title": "Improve Your Top Speed For Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=JnwVrUZwDAY",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 35,
+      "dateAdded": "2026-10-25",
+      "creator": "Eric Deng – That Ultimate Coach 🥏"
+    },
+    {
+      "id": "healthiest-most-effective-ultimate-frisbee-training-approach",
+      "title": "Healthiest (Most Effective) Ultimate Frisbee Training Approach",
+      "embedURL": "https://www.youtube.com/watch?v=vpeGvqLZ_j8",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 162,
+      "dateAdded": "2026-10-25",
+      "description": "Ultimate Frisbee Training:",
+      "creator": "Brian Nevison"
+    },
+    {
+      "id": "sim-n-ram-rez-ortiz-breaks-down-furious-george-s-dominator-c",
+      "title": "Simón Ramírez Ortiz Breaks Down Furious George's Dominator | CUC 2026 Final",
+      "embedURL": "https://www.youtube.com/watch?v=38Z8sp0BekQ",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 407,
+      "dateAdded": "2026-10-25",
+      "description": "Simón Ramírez Ortiz (Sai) played  for Vancouver Furious George in the 2026 Canadian Ultimate Championships Open final against Victoria Surf.",
+      "creator": "Hive Ultimate"
+    },
     {
       "id": "universe-point-riot-vs-bent",
       "title": "Universe Point: Riot vs. BENT",
