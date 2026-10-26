@@ -1,6 +1,17 @@
 {
-  "version": "2026.10.25",
+  "version": "2026.10.26",
   "videos": [
+    {
+      "id": "best-of-club-nationals-bracket-play-2026",
+      "title": "Best Of Club Nationals Bracket Play 2026",
+      "embedURL": "https://www.youtube.com/watch?v=z8zqdlmzmGA",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 234,
+      "dateAdded": "2026-10-26",
+      "description": "Check out highlights from Day 2 of the 2026 Club Championships, presented by Spin Ultimate!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "best-of-club-nationals-pool-play-2026",
       "title": "Best Of Club Nationals Pool Play 2026",
