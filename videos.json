@@ -1,6 +1,17 @@
 {
-  "version": "2026.10.26",
+  "version": "2026.10.27",
   "videos": [
+    {
+      "id": "best-of-club-nationals-semifinals-2026",
+      "title": "Best Of Club Nationals Semifinals 2026",
+      "embedURL": "https://www.youtube.com/watch?v=cGpgrYMIqU8",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 215,
+      "dateAdded": "2026-10-27",
+      "description": "Check out highlights from the Semifinals of the 2026 Club Championships, presented by Spin Ultimate!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "best-of-club-nationals-bracket-play-2026",
       "title": "Best Of Club Nationals Bracket Play 2026",
