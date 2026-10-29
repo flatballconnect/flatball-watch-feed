@@ -1,6 +1,16 @@
 {
-  "version": "2026.10.28",
+  "version": "2026.10.29",
   "videos": [
+    {
+      "id": "raleigh-ring-of-fire-are-back-on-top-of-the-ultimate-world",
+      "title": "Raleigh Ring of Fire are back on top of the ultimate world!",
+      "embedURL": "https://www.youtube.com/watch?v=L25KPvEQDuc",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 47,
+      "dateAdded": "2026-10-29",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "best-of-club-nationals-finals-2026",
       "title": "Best Of Club Nationals Finals 2026",
