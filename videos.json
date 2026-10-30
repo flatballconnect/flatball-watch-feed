@@ -1,6 +1,17 @@
 {
-  "version": "2026.10.29",
+  "version": "2026.10.30",
   "videos": [
+    {
+      "id": "inside-out-presten-berg-of-oregon-scorch",
+      "title": "Inside Out: Presten Berg of Oregon Scorch",
+      "embedURL": "https://www.youtube.com/watch?v=NP8aCkBo3nY",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 293,
+      "dateAdded": "2026-10-30",
+      "description": "Check out our interview with Presten Berg of Oregon Scorch on our studio show, Inside Out!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "raleigh-ring-of-fire-are-back-on-top-of-the-ultimate-world",
       "title": "Raleigh Ring of Fire are back on top of the ultimate world!",
