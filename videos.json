@@ -1,6 +1,17 @@
 {
-  "version": "2026.10.30",
+  "version": "2026.10.31",
   "videos": [
+    {
+      "id": "the-layout-block-that-opened-the-2026-us-nationals-final",
+      "title": "The Layout Block That Opened the 2026 US Nationals Final",
+      "embedURL": "https://www.youtube.com/watch?v=peFJ5cvNQfg",
+      "platform": "youtube",
+      "category": "play",
+      "durationSeconds": 520,
+      "dateAdded": "2026-10-31",
+      "description": "Check out this Game Analysis by Eric Deng from the Men's Club National Final!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "inside-out-presten-berg-of-oregon-scorch",
       "title": "Inside Out: Presten Berg of Oregon Scorch",
