@@ -1,6 +1,38 @@
 {
-  "version": "2026.10.31",
+  "version": "2026.11.01",
   "videos": [
+    {
+      "id": "quadruped-hip-cars-with-ball-squeeze-behind-knee",
+      "title": "Quadruped Hip CARs with Ball Squeeze Behind Knee",
+      "embedURL": "https://www.youtube.com/watch?v=-wiejxjYsrc",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 72,
+      "dateAdded": "2026-11-01",
+      "description": "Ultimate Frisbee Training:",
+      "creator": "Brian Nevison"
+    },
+    {
+      "id": "the-classic-endzone-drill-teaches-a-bad-habit",
+      "title": "The Classic Endzone Drill Teaches a Bad Habit",
+      "embedURL": "https://www.youtube.com/watch?v=c8T36iqexpI",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 60,
+      "dateAdded": "2026-11-01",
+      "description": "In the classic endzone drill, the player who cuts to the front corner catches, passes it back and clears out.",
+      "creator": "Hive Ultimate"
+    },
+    {
+      "id": "how-to-get-blocks-from-pull-plays-in-ultimate-frisbee",
+      "title": "How to Get Blocks From Pull Plays in Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=d0l0HEY809o",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 36,
+      "dateAdded": "2026-11-01",
+      "creator": "Eric Deng – Ultimate Athlete & Coach 🥏"
+    },
     {
       "id": "the-layout-block-that-opened-the-2026-us-nationals-final",
       "title": "The Layout Block That Opened the 2026 US Nationals Final",
