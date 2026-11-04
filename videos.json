@@ -1,6 +1,17 @@
 {
-  "version": "2026.11.01",
+  "version": "2026.11.04",
   "videos": [
+    {
+      "id": "universe-point-fury-vs-brute-squad",
+      "title": "Universe Point: Fury vs. Brute Squad",
+      "embedURL": "https://www.youtube.com/watch?v=ycG8VgMCEFQ",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 153,
+      "dateAdded": "2026-11-04",
+      "description": "Check out the universe point finish in this Women's Division Semifinal matchup between San Francisco Fury and Boston Brute Squad at the 2026 Club National…",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "quadruped-hip-cars-with-ball-squeeze-behind-knee",
       "title": "Quadruped Hip CARs with Ball Squeeze Behind Knee",
@@ -528,16 +539,6 @@
       "durationSeconds": 192,
       "dateAdded": "2026-08-05",
       "description": "Ultimate plays that made SportsCenter's Top 10."
-    },
-    {
-      "id": "ultimate-101-stack",
-      "title": "Ultimate 101: the stack",
-      "embedURL": "https://www.youtube.com/watch?v=PY2zQe6M3dk",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 51,
-      "dateAdded": "2026-07-30",
-      "description": "A beginner-friendly look at why offenses line up in a [[stack]]."
     }
   ]
 }
