@@ -1,6 +1,17 @@
 {
-  "version": "2026.11.04",
+  "version": "2026.11.06",
   "videos": [
+    {
+      "id": "universe-point-machine-vs-pony",
+      "title": "Universe Point: Machine vs. PoNY",
+      "embedURL": "https://www.youtube.com/watch?v=K1QHATmH6C8",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 72,
+      "dateAdded": "2026-11-06",
+      "description": "Check out the universe point finish in this Men's Division quarterfinal matchup between Chicago Machine and New York PoNY at the 2026 Club National…",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "universe-point-fury-vs-brute-squad",
       "title": "Universe Point: Fury vs. Brute Squad",
@@ -529,16 +540,6 @@
       "durationSeconds": 29,
       "dateAdded": "2026-08-12",
       "description": "A Callahan on the final point to win the game."
-    },
-    {
-      "id": "sportscenter-top10",
-      "title": "Best of pro ultimate on SportsCenter Top 10",
-      "embedURL": "https://www.youtube.com/watch?v=OjU0Kqqtr6Y",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 192,
-      "dateAdded": "2026-08-05",
-      "description": "Ultimate plays that made SportsCenter's Top 10."
     }
   ]
 }
