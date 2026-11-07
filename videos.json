@@ -1,6 +1,28 @@
 {
-  "version": "2026.11.06",
+  "version": "2026.11.07",
   "videos": [
+    {
+      "id": "universe-point-slow-vs-polar-bears",
+      "title": "Universe Point: Slow vs. Polar Bears",
+      "embedURL": "https://www.youtube.com/watch?v=NZdbNW2o_Q4",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 89,
+      "dateAdded": "2026-11-07",
+      "description": "Check out the universe point finish in this Mixed Division quarterfinal matchup between Chicago Machine and New York PoNY at the 2026 Club National…",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
+    {
+      "id": "the-biggest-summer-in-wfdf-history",
+      "title": "The Biggest Summer in WFDF History",
+      "embedURL": "https://www.youtube.com/watch?v=dypmVc7h3BU",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 123,
+      "dateAdded": "2026-11-07",
+      "description": "🏆 Five World Championships.",
+      "creator": "World Flying Disc Federation"
+    },
     {
       "id": "universe-point-machine-vs-pony",
       "title": "Universe Point: Machine vs. PoNY",
@@ -509,27 +531,6 @@
       "durationSeconds": 27,
       "dateAdded": "2026-08-28",
       "description": "A full-extension [[layout]] interception in the end zone for a Callahan."
-    },
-    {
-      "id": "horizontal-stack-basics",
-      "title": "Horizontal stack basics",
-      "embedURL": "https://www.youtube.com/watch?v=WXX38xZvZRs",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 743,
-      "dateAdded": "2026-08-24",
-      "description": "The [[horizontal-stack]] offense and how cutters use the space in front and behind."
-    },
-    {
-      "id": "ufa-top10-2024",
-      "title": "Top 10 Plays: 2024 UFA season",
-      "embedURL": "https://www.youtube.com/watch?v=wc1q4vEJQgo",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 506,
-      "dateAdded": "2026-08-20",
-      "description": "Big catches, blocks and hucks from the 2024 season.",
-      "creator": "UFA"
     },
     {
       "id": "game-winning-callahan",
