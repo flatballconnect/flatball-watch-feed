@@ -1,6 +1,17 @@
 {
-  "version": "2026.11.08",
+  "version": "2026.11.10",
   "videos": [
+    {
+      "id": "best-of-classic-city-classic-2026",
+      "title": "Best Of Classic City Classic 2026",
+      "embedURL": "https://www.youtube.com/watch?v=BEWKFDCKEqU",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 199,
+      "dateAdded": "2026-11-10",
+      "description": "The college season is here!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "universe-point-machine-vs-rhino-slam",
       "title": "Universe Point: Machine vs. Rhino Slam!",
@@ -466,17 +477,6 @@
       "dateAdded": "2026-10-04",
       "description": "Check out highlights from the Northeast, Northwest, and Southwest Club Regionals 2026, presented by Spin Ultimate!",
       "creator": "Ultiworld - Ultimate Frisbee"
-    },
-    {
-      "id": "defensive-player-of-the-year-highlights-from-cooper-williams",
-      "title": "Defensive Player Of The Year Highlights From Cooper Williams",
-      "embedURL": "https://www.youtube.com/watch?v=0DfxgW47dLQ",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 323,
-      "dateAdded": "2026-10-04",
-      "description": "Cooper Williams was the top block getter in the league in 2026 to earn \"Defensive Player Of The Year\" honors, presented by Delta.",
-      "creator": "UFA Ultimate Frisbee Association"
     },
     {
       "id": "off-season-ultimate-intro",
