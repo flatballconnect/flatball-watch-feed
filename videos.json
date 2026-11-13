@@ -1,6 +1,28 @@
 {
-  "version": "2026.11.10",
+  "version": "2026.11.13",
   "videos": [
+    {
+      "id": "universe-point-sub-zero-vs-chain-lightning",
+      "title": "Universe Point: Sub Zero vs. Chain Lightning",
+      "embedURL": "https://www.youtube.com/watch?v=OvOgVREcBUk",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 85,
+      "dateAdded": "2026-11-13",
+      "description": "Check out the universe point finish in this Men's Division Pre-quarterfinal matchup between Minneapolis Sub Zero and Atlanta Chain Lightning at the 2026 Club…",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
+    {
+      "id": "top-10-layouts-from-the-2026-wfdf-world-masters-ultimate-clu",
+      "title": "TOP 10 LAYOUTS from the 2026 WFDF World Masters Ultimate Club Championships | WMUCC 2026",
+      "embedURL": "https://www.youtube.com/watch?v=ci-qa_onnVs",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 162,
+      "dateAdded": "2026-11-13",
+      "description": "he biggest dives.",
+      "creator": "World Flying Disc Federation"
+    },
     {
       "id": "best-of-classic-city-classic-2026",
       "title": "Best Of Classic City Classic 2026",
@@ -454,28 +476,6 @@
       "durationSeconds": 207,
       "dateAdded": "2026-10-04",
       "description": "Learn how to throw from some of the best in game.",
-      "creator": "Ultiworld - Ultimate Frisbee"
-    },
-    {
-      "id": "chander-boyd-fliegel-rookie-of-the-year-highlights",
-      "title": "Chander Boyd-Fliegel Rookie Of The Year Highlights",
-      "embedURL": "https://www.youtube.com/watch?v=Xj1ZpmBoPfs",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 410,
-      "dateAdded": "2026-10-04",
-      "description": "Rookie Chander Boyd-Fliegel was a perfect fit for the Oakland Spiders offense during their championship run.",
-      "creator": "UFA Ultimate Frisbee Association"
-    },
-    {
-      "id": "best-of-club-regionals-2026",
-      "title": "Best Of Club Regionals 2026",
-      "embedURL": "https://www.youtube.com/watch?v=abhRnYT18zM",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 200,
-      "dateAdded": "2026-10-04",
-      "description": "Check out highlights from the Northeast, Northwest, and Southwest Club Regionals 2026, presented by Spin Ultimate!",
       "creator": "Ultiworld - Ultimate Frisbee"
     },
     {
