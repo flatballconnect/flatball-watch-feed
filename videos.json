@@ -1,6 +1,17 @@
 {
-  "version": "2026.11.13",
+  "version": "2026.11.14",
   "videos": [
+    {
+      "id": "universe-point-nightlock-vs-parcha",
+      "title": "Universe Point: Nightlock vs. Parcha",
+      "embedURL": "https://www.youtube.com/watch?v=TgDZHmYUBik",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 130,
+      "dateAdded": "2026-11-14",
+      "description": "Check out the universe point finish in this Women's Division Pre-Quarterfinal matchup between San Francisco Nightlock and Pittsburgh Parcha at the 2026 Club…",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "universe-point-sub-zero-vs-chain-lightning",
       "title": "Universe Point: Sub Zero vs. Chain Lightning",
@@ -466,17 +477,6 @@
       "dateAdded": "2026-10-04",
       "description": "It’s definitely not every day you get to match up against the BEST frisbee team in the world!",
       "creator": "Ulti Von"
-    },
-    {
-      "id": "how-to-throw-a-frisbee-how-to-play-ultimate",
-      "title": "How to Throw a Frisbee - How to Play Ultimate",
-      "embedURL": "https://www.youtube.com/watch?v=2BCwPoM0ZtM",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 207,
-      "dateAdded": "2026-10-04",
-      "description": "Learn how to throw from some of the best in game.",
-      "creator": "Ultiworld - Ultimate Frisbee"
     },
     {
       "id": "off-season-ultimate-intro",
