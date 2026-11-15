@@ -1,6 +1,38 @@
 {
-  "version": "2026.11.14",
+  "version": "2026.11.15",
   "videos": [
+    {
+      "id": "eric-s-nov-2026-ultimate-frisbee-update",
+      "title": "Eric's Nov 2026 Ultimate Frisbee Update",
+      "embedURL": "https://www.youtube.com/watch?v=0AfQE7OocZ8",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 50,
+      "dateAdded": "2026-11-15",
+      "creator": "Eric Deng – Ultimate Athlete & Coach 🥏"
+    },
+    {
+      "id": "couch-stretch-with-isometrics-for-hip-knee-mobility",
+      "title": "“Couch Stretch” with Isometrics for Hip & Knee Mobility",
+      "embedURL": "https://www.youtube.com/watch?v=Kz9Mu2UK7EA",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 81,
+      "dateAdded": "2026-11-15",
+      "description": "Ultimate Frisbee Training Programs:",
+      "creator": "Brian Nevison"
+    },
+    {
+      "id": "how-to-throw-a-flat-forehand-and-backhand-in-ultimate-frisbe",
+      "title": "How to Throw a Flat Forehand and Backhand in Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=_McC7i0ypwI",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 593,
+      "dateAdded": "2026-11-15",
+      "description": "Learn how to throw a flat forehand and backhand in ultimate frisbee.",
+      "creator": "Ultimate101"
+    },
     {
       "id": "universe-point-nightlock-vs-parcha",
       "title": "Universe Point: Nightlock vs. Parcha",
@@ -444,39 +476,6 @@
       "dateAdded": "2026-10-04",
       "description": "Miles Grovic made The Leap for the DC Breeze in 2026.",
       "creator": "UFA Ultimate Frisbee Association"
-    },
-    {
-      "id": "better-acceleration-for-ultimate-frisbee",
-      "title": "Better Acceleration for Ultimate Frisbee",
-      "embedURL": "https://www.youtube.com/watch?v=ThqK3HPS2Zc",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 169,
-      "dateAdded": "2026-10-04",
-      "description": "Ultimate Frisbee Training Program:",
-      "creator": "Brian Nevison"
-    },
-    {
-      "id": "my-favorite-focused-throwing-practice-for-ultimate-frisbee",
-      "title": "My Favorite Focused Throwing Practice for Ultimate Frisbee",
-      "embedURL": "https://www.youtube.com/watch?v=DFMKclIs9_8",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 599,
-      "dateAdded": "2026-10-04",
-      "description": "Apply here to join Rowan's Throwing Academy:",
-      "creator": "Rowan McDonnell"
-    },
-    {
-      "id": "i-played-the-best-frisbee-team-in-the-world",
-      "title": "I Played The BEST Frisbee Team In The WORLD!",
-      "embedURL": "https://www.youtube.com/watch?v=p3hJlyKbQVk",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 935,
-      "dateAdded": "2026-10-04",
-      "description": "It’s definitely not every day you get to match up against the BEST frisbee team in the world!",
-      "creator": "Ulti Von"
     },
     {
       "id": "off-season-ultimate-intro",
