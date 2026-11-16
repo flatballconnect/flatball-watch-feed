@@ -1,6 +1,17 @@
 {
-  "version": "2026.11.15",
+  "version": "2026.11.16",
   "videos": [
+    {
+      "id": "i-played-the-best-frisbee-team-in-the-world",
+      "title": "I Played The BEST Frisbee Team In The WORLD!",
+      "embedURL": "https://www.youtube.com/watch?v=p3hJlyKbQVk",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 935,
+      "dateAdded": "2026-11-16",
+      "description": "It’s definitely not every day you get to match up against the BEST frisbee team in the world!",
+      "creator": "Ulti Von"
+    },
     {
       "id": "eric-s-nov-2026-ultimate-frisbee-update",
       "title": "Eric's Nov 2026 Ultimate Frisbee Update",
@@ -465,17 +476,6 @@
       "dateAdded": "2026-10-04",
       "description": "Check out the universe point finish in this Women's Division semifinal between San Francisco Nightlock and San Diego Flipside at the 2026 Southwest Regionals!",
       "creator": "Ultiworld - Ultimate Frisbee"
-    },
-    {
-      "id": "a-new-superstar-miles-grovic-2026-season-highlights",
-      "title": "A New Superstar! Miles Grovic 2026 season highlights",
-      "embedURL": "https://www.youtube.com/watch?v=WFOhxRgJSAM",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 540,
-      "dateAdded": "2026-10-04",
-      "description": "Miles Grovic made The Leap for the DC Breeze in 2026.",
-      "creator": "UFA Ultimate Frisbee Association"
     },
     {
       "id": "off-season-ultimate-intro",
