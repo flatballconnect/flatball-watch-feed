@@ -1,6 +1,17 @@
 {
-  "version": "2026.11.16",
+  "version": "2026.11.17",
   "videos": [
+    {
+      "id": "universe-point-amp-vs-burrito",
+      "title": "Universe Point: AMP vs. Burrito",
+      "embedURL": "https://www.youtube.com/watch?v=C0hPQNXbUhw",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 89,
+      "dateAdded": "2026-11-17",
+      "description": "Check out the universe point finish in this Mixed Division Pool Play matchup between Philadelphia AMP and California Burrito at the 2026 Club National…",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "i-played-the-best-frisbee-team-in-the-world",
       "title": "I Played The BEST Frisbee Team In The WORLD!",
@@ -465,17 +476,6 @@
       "dateAdded": "2026-10-04",
       "description": "It’s a play from Gujarat vs Delhi (match no 9- pool stages) Bharat trophy 2026!!",
       "creator": "Off-Season Ultimate"
-    },
-    {
-      "id": "universe-point-nightlock-vs-flipside",
-      "title": "Universe Point: Nightlock vs. Flipside",
-      "embedURL": "https://www.youtube.com/watch?v=Tv-JyS2vYXw",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 92,
-      "dateAdded": "2026-10-04",
-      "description": "Check out the universe point finish in this Women's Division semifinal between San Francisco Nightlock and San Diego Flipside at the 2026 Southwest Regionals!",
-      "creator": "Ultiworld - Ultimate Frisbee"
     },
     {
       "id": "off-season-ultimate-intro",
