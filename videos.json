@@ -1,6 +1,17 @@
 {
-  "version": "2026.11.17",
+  "version": "2026.11.19",
   "videos": [
+    {
+      "id": "universe-point-machine-vs-furious-george",
+      "title": "Universe Point: Machine vs. Furious George",
+      "embedURL": "https://www.youtube.com/watch?v=VnUOIT3IrEk",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 86,
+      "dateAdded": "2026-11-19",
+      "description": "Check out the universe point finish in this Men's Division pool play matchup between Chicago Machine and Vancouver Furious George at the 2026 Club National…",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
     {
       "id": "universe-point-amp-vs-burrito",
       "title": "Universe Point: AMP vs. Burrito",
@@ -453,17 +464,6 @@
       "category": "highlight",
       "durationSeconds": 35,
       "dateAdded": "2026-10-05",
-      "creator": "UFA Ultimate Frisbee Association"
-    },
-    {
-      "id": "first-team-all-ufa-highlights-2026-pro-frisbee",
-      "title": "First Team All-UFA Highlights | 2026 Pro Frisbee",
-      "embedURL": "https://www.youtube.com/watch?v=9-5PLZgqOys",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 644,
-      "dateAdded": "2026-10-04",
-      "description": "Introducing the 2026 First Team All-UFA selections ⭐️",
       "creator": "UFA Ultimate Frisbee Association"
     },
     {
