@@ -1,18 +1,38 @@
 {
   "version": "2026.11.22",
-  "videos": [
-    {
-      "id": "how-to-play-defense",
-      "title": "How to Play Defense",
-      "embedURL": "https://www.youtube.com/watch?v=mtdfbMe8WmQ",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 203,
-      "dateAdded": "2026-11-22",
-      "description": "Learn how to become a lockdown defender from some of the best in the game!",
-      "creator": "Ultiworld",
-      "basics": 7
+  "creators": {
+    "Brian Nevison": {
+      "avatar": "https://yt3.ggpht.com/94uH3ZB9jYxhdNO4WFrUIeYupKwZ5Buap0z0RqZF0l4bRsexgIuYl-IJwDJDcCID1ccVMSM_=s240-c-k-c0x00ffffff-no-rj"
     },
+    "Eric Deng": {
+      "avatar": "https://yt3.ggpht.com/cAwbq0cXqDsFEEFEo3we68SEXzHy8MK8ZT75B8LpvSKAUJ6f_6uNQj9pCvYT3Wxb4f4E8ug98A=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "Hive Ultimate": {
+      "avatar": "https://yt3.ggpht.com/GL6FVA_JYcJ8IQqSeyED1gpC4F6s-JTkMqDPEngnmbQsImWdRwM62Yew16KObxC8FbC1fFHjXA=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "Off-Season Ultimate": {
+      "avatar": "https://yt3.ggpht.com/iuV6Nhrb305n3MMc9anQc-k9LpW2bigXqeMnyrMPOK0uAVWmsZUhkijzy1ZNsFJY81XuVzhDXA=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "Rowan McDonnell": {
+      "avatar": "https://yt3.ggpht.com/YGHF-u3GRt-mWiYCt0oMIYuyuTYjF754zI8Bb6ZPcoP9VFjWTnp6mx98BbrV-F5tDzXHF_B4fJ4=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "UFA": {
+      "avatar": "https://yt3.ggpht.com/Jw3ytS4Jysya1c8TqKdMY5yr3OhOkVG-_TYOd40xMfwuLjP3Qq2ep2Xl0Iu80ezYsHK5paBcrw=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "Ulti Von": {
+      "avatar": "https://yt3.ggpht.com/0n4rCaf9qL2d97limpf6JU5yZWcEqpZES6SMOoU4itly9jKkUHYFiE0XYAJukPlSXFpgHFMzOQ=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "Ultimate101": {
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_mp8PHzMj-Sv-jDXfXqR5SVE7X8O1288O55oWPbMvFg8Cs=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "Ultiworld": {
+      "avatar": "https://yt3.ggpht.com/novnZlTj7ZcG-WqtI0dFSSvVLuSLTkrskaaun631OEABpKNQqbfZS2x4Gdt3ZwoTneNTth7BTfM=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "WFDF": {
+      "avatar": "https://yt3.ggpht.com/cEH8L-t3vp7paTidrLpU6YoPgtnT37n2GvvD2oshJgiV61z-LfLmcFaMIklw-jnwcKsOfMm3bw=s240-c-k-c0x00ffffff-no-rj"
+    }
+  },
+  "videos": [
     {
       "id": "i-studied-mac-hecht-s-throws-here-s-what-he-does-differently",
       "title": "I Studied Mac Hecht’s Throws. Here’s What He Does Differently.",
@@ -36,6 +56,18 @@
       "creator": "Brian Nevison"
     },
     {
+      "id": "how-to-play-defense",
+      "title": "How to Play Defense",
+      "embedURL": "https://www.youtube.com/watch?v=mtdfbMe8WmQ",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 203,
+      "dateAdded": "2026-11-22",
+      "description": "Learn how to become a lockdown defender from some of the best in the game!",
+      "creator": "Ultiworld",
+      "basics": 7
+    },
+    {
       "id": "how-to-throw-a-backhand-in-ultimate-frisbee-all-backhand-thr",
       "title": "How to Throw a Backhand in Ultimate Frisbee - All Backhand Throws",
       "embedURL": "https://www.youtube.com/watch?v=7fStgTdguzE",
@@ -43,7 +75,8 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 2
+      "basics": 2,
+      "durationSeconds": 1129
     },
     {
       "id": "vertical-stack-tutorial-ultimate-frisbee-offense",
@@ -53,7 +86,8 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 4
+      "basics": 4,
+      "durationSeconds": 202
     },
     {
       "id": "ultimate-frisbee-offense-v-stack-h-stack-cutting-tips-skills",
@@ -63,7 +97,8 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 5
+      "basics": 5,
+      "durationSeconds": 1500
     },
     {
       "id": "cutting-mechanics-and-4-cutting-drills-with-ultimate-star-el",
@@ -73,7 +108,8 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "TOBU Fitness - Justin Shelby",
-      "basics": 6
+      "basics": 6,
+      "durationSeconds": 447
     },
     {
       "id": "force-overview-ultimate-frisbee-defense",
@@ -83,7 +119,8 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 8
+      "basics": 8,
+      "durationSeconds": 282
     },
     {
       "id": "marking-the-thrower-in-ultimate-frisbee",
@@ -93,7 +130,8 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Frisbee Rob",
-      "basics": 9
+      "basics": 9,
+      "durationSeconds": 323
     },
     {
       "id": "how-to-play-zone-defense-cup-ultimate-frisbee-tutorial",
@@ -103,7 +141,8 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 10
+      "basics": 10,
+      "durationSeconds": 342
     },
     {
       "id": "universe-point-machine-vs-furious-george",
@@ -476,17 +515,6 @@
       "creator": "Brian Nevison"
     },
     {
-      "id": "how-to-improve-your-forehand-accuracy-in-ultimate-frisbee",
-      "title": "How to Improve Your Forehand Accuracy in Ultimate Frisbee",
-      "embedURL": "https://www.youtube.com/watch?v=UbvFu6AX4Hk",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 77,
-      "dateAdded": "2026-10-18",
-      "creator": "Eric Deng",
-      "basics": 3
-    },
-    {
       "id": "how-canada-won-gold",
       "title": "How Canada Won GOLD",
       "embedURL": "https://www.youtube.com/watch?v=2ylwEyQLWoA",
@@ -496,6 +524,17 @@
       "dateAdded": "2026-10-18",
       "description": "Do you want to be an elite thrower?",
       "creator": "Rowan McDonnell"
+    },
+    {
+      "id": "how-to-improve-your-forehand-accuracy-in-ultimate-frisbee",
+      "title": "How to Improve Your Forehand Accuracy in Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=UbvFu6AX4Hk",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 77,
+      "dateAdded": "2026-10-18",
+      "creator": "Eric Deng",
+      "basics": 3
     },
     {
       "id": "this-one-point-at-frisbee-worlds-had-everything",
