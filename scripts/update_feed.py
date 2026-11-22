@@ -509,11 +509,13 @@ def main() -> int:
         print(f"+ [{video['category']}] {video['title']}  {video['embedURL']}")
     for video in removed:
         print(f"- {video['title']}")
-    if new_feed["version"] == feed.get("version") and not added and not removed:
+    output = json.dumps(new_feed, indent=2, ensure_ascii=False) + "\n"
+    # Compared as written, not by version: a second run on the same day
+    # keeps the day's version, and a filled length, a tidied name or a
+    # creator's picture is still worth writing.
+    if output == feed_path.read_text(encoding="utf-8"):
         print("No changes.")
         return 0
-
-    output = json.dumps(new_feed, indent=2, ensure_ascii=False) + "\n"
     if args.dry_run:
         print(output)
     else:
