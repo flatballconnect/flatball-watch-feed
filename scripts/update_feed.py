@@ -61,8 +61,8 @@ class YouTubeClient:
         with urllib.request.urlopen(url, timeout=30) as response:
             return json.load(response)
 
-    def uploads_playlist(self, channel: dict) -> tuple[str, str] | None:
-        """Returns (uploads playlist id, channel title)."""
+    def uploads_playlist(self, channel: dict) -> tuple[str, str, str | None] | None:
+        """Returns (uploads playlist id, channel title, the channel's picture)."""
         params = {"part": "contentDetails,snippet"}
         if channel.get("channelId"):
             params["id"] = channel["channelId"]
@@ -76,7 +76,9 @@ class YouTubeClient:
         if not items:
             return None
         item = items[0]
-        return item["contentDetails"]["relatedPlaylists"]["uploads"], item["snippet"]["title"]
+        thumbnails = item["snippet"].get("thumbnails", {})
+        picture = (thumbnails.get("medium") or thumbnails.get("default") or {}).get("url")
+        return item["contentDetails"]["relatedPlaylists"]["uploads"], item["snippet"]["title"], picture
 
     def recent_upload_ids(self, playlist_id: str, limit: int = 15) -> list[str]:
         data = self.get("playlistItems", part="contentDetails", playlistId=playlist_id, maxResults=limit)
@@ -99,6 +101,18 @@ class YouTubeClient:
                 if seconds:
                     lengths[item["id"]] = seconds
         return lengths
+
+    def channel_titles(self, video_ids: list[str]) -> dict[str, str]:
+        """The channel each id was uploaded by: 1 quota unit per 50 ids. Only
+        asked for videos added by hand without a creator."""
+        titles: dict[str, str] = {}
+        for start in range(0, len(video_ids), 50):
+            data = self.get("videos", part="snippet", id=",".join(video_ids[start:start + 50]))
+            for item in data.get("items", []):
+                title = item.get("snippet", {}).get("channelTitle")
+                if title:
+                    titles[item["id"]] = title
+        return titles
 
 
 # ---------------------------------------------------------------- pure helpers
@@ -225,6 +239,20 @@ def reject_reason(item: dict, config: dict, now: dt.datetime, known_ids: set[str
     return None
 
 
+def is_picture_url(url) -> bool:
+    """Only YouTube's own picture servers: the app loads these directly."""
+    return isinstance(url, str) and re.match(r"^https://yt\d*\.(ggpht|googleusercontent)\.com/", url) is not None
+
+
+def creator_name(config: dict, channel_title: str, channel: dict | None = None) -> str:
+    """The name players see. A channel's own `creator` wins; otherwise
+    `creatorNames` tidies a YouTube title ("Ultiworld - Ultimate Frisbee" ->
+    "Ultiworld") and keeps one name across a channel's renames."""
+    if channel and channel.get("creator"):
+        return channel["creator"]
+    return config.get("creatorNames", {}).get(channel_title, channel_title)
+
+
 def to_feed_entry(item: dict, channel_title: str, category: str, today: str, taken_ids: set[str]) -> dict:
     snippet = item["snippet"]
     title = clean_title(snippet.get("title", "")) or "Untitled video"
@@ -251,12 +279,18 @@ def trim_feed(videos: list[dict], max_size: int, protect_since: str,
     """Keep newest. Never drop an entry with keep=true, one added on or after
     protect_since, or one whose category is already down to its floor.
 
+    The basics (`basics`: the video's place on that shelf, from 1) are a shelf of their own: they are never
+    dropped and never count towards the size or the floors, so adding one
+    never pushes a new video out.
+
     The floors are what stop the feed drifting to whatever the busiest channels
     publish. Highlight channels upload most days and coaching channels upload
     most weeks, so without a floor the oldest-first trim grinds strategy out of
     the feed over a couple of months, however well the per-run quotas worked.
     """
-    ordered = sorted(videos, key=lambda v: v.get("dateAdded", ""), reverse=True)
+    basics = [v for v in videos if v.get("basics")]
+    ordered = sorted((v for v in videos if not v.get("basics")),
+                     key=lambda v: v.get("dateAdded", ""), reverse=True)
     floors = min_per_category or {}
     removed: list[dict] = []
     while len(ordered) > max_size:
@@ -274,13 +308,17 @@ def trim_feed(videos: list[dict], max_size: int, protect_since: str,
             break
         else:
             break  # everything left is protected
-    return ordered, removed
+    together = sorted(ordered + basics, key=lambda v: v.get("dateAdded", ""), reverse=True)
+    return together, removed
 
 
 def validate(feed: dict) -> list[str]:
     errors, seen = [], set()
     if not re.fullmatch(r"\d{4}\.\d{2}\.\d{2}", feed.get("version", "")):
         errors.append("version must be yyyy.MM.dd")
+    for name, entry in feed.get("creators", {}).items():
+        if not is_picture_url((entry or {}).get("avatar")):
+            errors.append(f"creator {name}: avatar must be a YouTube picture URL")
     for video in feed.get("videos", []):
         vid = video.get("id")
         if not vid or vid in seen:
@@ -297,6 +335,9 @@ def validate(feed: dict) -> list[str]:
             errors.append(f"{vid}: embedURL is not a YouTube video link")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", video.get("dateAdded", "")):
             errors.append(f"{vid}: dateAdded must be yyyy-MM-dd")
+        basics = video.get("basics")
+        if basics is not None and (isinstance(basics, bool) or not isinstance(basics, int) or basics < 1):
+            errors.append(f"{vid}: basics must be a place on the shelf, from 1")
     return errors
 
 
@@ -326,8 +367,34 @@ def run(client, config: dict, feed: dict, now: dt.datetime) -> tuple[dict, list[
                     print(f"  length {seconds}s for {missing[video_id].get('title', '')[:60]!r}")
         except Exception as error:  # lengths are a nicety; never stop the run
             print(f"! video lengths: {error}", file=sys.stderr)
+
+    # Creators: a tidy name for every video, including ones added by hand
+    # without one and ones whose channel has since been renamed.
+    renamed = 0
+    nameless = {youtube_id_from_url(v["embedURL"]): v for v in videos
+                if v.get("platform") == "youtube" and not v.get("creator")}
+    nameless.pop(None, None)
+    if nameless and hasattr(client, "channel_titles"):
+        try:
+            for video_id, title in client.channel_titles(sorted(nameless)).items():
+                if video_id in nameless:
+                    nameless[video_id]["creator"] = title
+                    renamed += 1
+        except Exception as error:  # a nicety too
+            print(f"! creators: {error}", file=sys.stderr)
+    for v in videos:
+        if v.get("creator"):
+            tidy = creator_name(config, v["creator"])
+            if tidy != v["creator"]:
+                v["creator"] = tidy
+                renamed += 1
     taken_slugs = {v["id"] for v in videos}
 
+    # Each creator's picture, from YouTube's own image servers, for the
+    # app's row of creators. Kept from earlier runs for channels not asked
+    # about this time; dropped once a creator has no video left.
+    pictures: dict[str, str] = {name: entry["avatar"] for name, entry in feed.get("creators", {}).items()
+                                if is_picture_url(entry.get("avatar"))}
     candidates: list[tuple[str, dict, str, str]] = []  # (publishedAt, item, channel title, default category)
     for channel in config.get("channels", []):
         label = channel.get("name") or channel.get("handle") or channel.get("username")
@@ -336,7 +403,10 @@ def run(client, config: dict, feed: dict, now: dt.datetime) -> tuple[dict, list[
             if not resolved:
                 print(f"! channel not found: {label}", file=sys.stderr)
                 continue
-            playlist_id, channel_title = resolved
+            playlist_id, channel_title, *rest = resolved
+            channel_title = creator_name(config, channel_title, channel)
+            if rest and is_picture_url(rest[0]):
+                pictures[channel_title] = rest[0]
             items = client.video_details(client.recent_upload_ids(playlist_id))
         except Exception as error:  # one bad channel shouldn't stop the run
             print(f"! {label}: {error}", file=sys.stderr)
@@ -369,6 +439,8 @@ def run(client, config: dict, feed: dict, now: dt.datetime) -> tuple[dict, list[
     # batch, then nothing until the gap has passed since the last addition.
     last_added: dict[str, str] = {}
     for v in videos:
+        if v.get("basics"):  # a basic added by hand starts no batch
+            continue
         if v.get("dateAdded", "") > last_added.get(v.get("category"), ""):
             last_added[v["category"]] = v["dateAdded"]
     resting: dict[str, str] = {}
@@ -398,9 +470,13 @@ def run(client, config: dict, feed: dict, now: dt.datetime) -> tuple[dict, list[
 
     videos, removed = trim_feed(videos + added, config.get("maxFeedSize", 50), protect_since,
                                 config.get("minPerCategory"))
-    changed = bool(added or removed or filled or len(videos) != len(feed.get("videos", [])))
+    names = {v.get("creator") for v in videos}
+    creators = {name: {"avatar": url} for name, url in sorted(pictures.items()) if name in names}
+    changed = bool(added or removed or filled or renamed or len(videos) != len(feed.get("videos", []))
+                   or creators != feed.get("creators", {}))
     new_feed = {
         "version": local_now.strftime("%Y.%m.%d") if changed else feed.get("version", local_now.strftime("%Y.%m.%d")),
+        "creators": creators,
         "videos": videos,
     }
     return new_feed, added, removed
@@ -433,7 +509,7 @@ def main() -> int:
         print(f"+ [{video['category']}] {video['title']}  {video['embedURL']}")
     for video in removed:
         print(f"- {video['title']}")
-    if not added and not removed:
+    if new_feed["version"] == feed.get("version") and not added and not removed:
         print("No changes.")
         return 0
 

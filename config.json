@@ -1,5 +1,5 @@
 {
-  "_comment": "Rules for the daily Watch feed update. Edit this file, not the script. Channels may override maxAgeDays, minDurationSeconds, maxDurationSeconds, maxDurationSecondsByCategory and excludeKeywords, and set requireKeywords=false for ultimate-only channels. categoryEveryDays makes a category refresh in a batch every so many days (strategy weekly) instead of daily.",
+  "_comment": "Rules for the daily Watch feed update. Edit this file, not the script. Channels may override maxAgeDays, minDurationSeconds, maxDurationSeconds, maxDurationSecondsByCategory and excludeKeywords, and set requireKeywords=false for ultimate-only channels, and a creator to name the channel on every card. creatorNames tidies YouTube channel titles into the names players see, and keeps one name when a channel renames itself. categoryEveryDays makes a category refresh in a batch every so many days (strategy weekly) instead of daily.",
   "timezone": "Asia/Kolkata",
   "maxFeedSize": 50,
   "maxNewPerRun": 5,
@@ -186,6 +186,13 @@
       "mixtape",
       "week"
     ]
+  },
+  "creatorNames": {
+    "Ultiworld - Ultimate Frisbee": "Ultiworld",
+    "UFA Ultimate Frisbee Association": "UFA",
+    "World Flying Disc Federation": "WFDF",
+    "Eric Deng – Ultimate Athlete & Coach 🥏": "Eric Deng",
+    "Eric Deng – That Ultimate Coach 🥏": "Eric Deng"
   },
   "blockedVideoIds": [
     "Z426bcY01h8"

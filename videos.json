@@ -10,7 +10,8 @@
       "durationSeconds": 203,
       "dateAdded": "2026-11-22",
       "description": "Learn how to become a lockdown defender from some of the best in the game!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld",
+      "basics": 7
     },
     {
       "id": "i-studied-mac-hecht-s-throws-here-s-what-he-does-differently",
@@ -21,7 +22,7 @@
       "durationSeconds": 578,
       "dateAdded": "2026-11-22",
       "description": "Level up your ultimate game:",
-      "creator": "Eric Deng – Ultimate Athlete & Coach 🥏"
+      "creator": "Eric Deng"
     },
     {
       "id": "ultimate-players-make-this-mistake-all-the-time",
@@ -35,6 +36,76 @@
       "creator": "Brian Nevison"
     },
     {
+      "id": "how-to-throw-a-backhand-in-ultimate-frisbee-all-backhand-thr",
+      "title": "How to Throw a Backhand in Ultimate Frisbee - All Backhand Throws",
+      "embedURL": "https://www.youtube.com/watch?v=7fStgTdguzE",
+      "platform": "youtube",
+      "category": "strategy",
+      "dateAdded": "2026-11-22",
+      "creator": "Ultimate101",
+      "basics": 2
+    },
+    {
+      "id": "vertical-stack-tutorial-ultimate-frisbee-offense",
+      "title": "Vertical Stack Tutorial | Ultimate Frisbee Offense",
+      "embedURL": "https://www.youtube.com/watch?v=rre2tADd7Vw",
+      "platform": "youtube",
+      "category": "strategy",
+      "dateAdded": "2026-11-22",
+      "creator": "Ultimate101",
+      "basics": 4
+    },
+    {
+      "id": "ultimate-frisbee-offense-v-stack-h-stack-cutting-tips-skills",
+      "title": "Ultimate Frisbee Offense: V-Stack, H-Stack, Cutting Tips & Skills",
+      "embedURL": "https://www.youtube.com/watch?v=VRuBGOwT6TI",
+      "platform": "youtube",
+      "category": "strategy",
+      "dateAdded": "2026-11-22",
+      "creator": "Ultimate101",
+      "basics": 5
+    },
+    {
+      "id": "cutting-mechanics-and-4-cutting-drills-with-ultimate-star-el",
+      "title": "Cutting Mechanics and 4 Cutting Drills with Ultimate Star Elliot Bonnet",
+      "embedURL": "https://www.youtube.com/watch?v=nA231DorPd4",
+      "platform": "youtube",
+      "category": "strategy",
+      "dateAdded": "2026-11-22",
+      "creator": "TOBU Fitness - Justin Shelby",
+      "basics": 6
+    },
+    {
+      "id": "force-overview-ultimate-frisbee-defense",
+      "title": "Force Overview: Ultimate Frisbee Defense",
+      "embedURL": "https://www.youtube.com/watch?v=XPIsHipSvvo",
+      "platform": "youtube",
+      "category": "strategy",
+      "dateAdded": "2026-11-22",
+      "creator": "Ultimate101",
+      "basics": 8
+    },
+    {
+      "id": "marking-the-thrower-in-ultimate-frisbee",
+      "title": "Marking the Thrower in Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=mcCvu_-eETg",
+      "platform": "youtube",
+      "category": "strategy",
+      "dateAdded": "2026-11-22",
+      "creator": "Frisbee Rob",
+      "basics": 9
+    },
+    {
+      "id": "how-to-play-zone-defense-cup-ultimate-frisbee-tutorial",
+      "title": "How To Play Zone Defense (Cup) - Ultimate Frisbee Tutorial",
+      "embedURL": "https://www.youtube.com/watch?v=G4jS2FDcqww",
+      "platform": "youtube",
+      "category": "strategy",
+      "dateAdded": "2026-11-22",
+      "creator": "Ultimate101",
+      "basics": 10
+    },
+    {
       "id": "universe-point-machine-vs-furious-george",
       "title": "Universe Point: Machine vs. Furious George",
       "embedURL": "https://www.youtube.com/watch?v=VnUOIT3IrEk",
@@ -43,7 +114,7 @@
       "durationSeconds": 86,
       "dateAdded": "2026-11-19",
       "description": "Check out the universe point finish in this Men's Division pool play matchup between Chicago Machine and Vancouver Furious George at the 2026 Club National…",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "universe-point-amp-vs-burrito",
@@ -54,7 +125,7 @@
       "durationSeconds": 89,
       "dateAdded": "2026-11-17",
       "description": "Check out the universe point finish in this Mixed Division Pool Play matchup between Philadelphia AMP and California Burrito at the 2026 Club National…",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "i-played-the-best-frisbee-team-in-the-world",
@@ -75,7 +146,7 @@
       "category": "strategy",
       "durationSeconds": 50,
       "dateAdded": "2026-11-15",
-      "creator": "Eric Deng – Ultimate Athlete & Coach 🥏"
+      "creator": "Eric Deng"
     },
     {
       "id": "couch-stretch-with-isometrics-for-hip-knee-mobility",
@@ -97,7 +168,8 @@
       "durationSeconds": 593,
       "dateAdded": "2026-11-15",
       "description": "Learn how to throw a flat forehand and backhand in ultimate frisbee.",
-      "creator": "Ultimate101"
+      "creator": "Ultimate101",
+      "basics": 1
     },
     {
       "id": "universe-point-nightlock-vs-parcha",
@@ -108,7 +180,7 @@
       "durationSeconds": 130,
       "dateAdded": "2026-11-14",
       "description": "Check out the universe point finish in this Women's Division Pre-Quarterfinal matchup between San Francisco Nightlock and Pittsburgh Parcha at the 2026 Club…",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "universe-point-sub-zero-vs-chain-lightning",
@@ -119,7 +191,7 @@
       "durationSeconds": 85,
       "dateAdded": "2026-11-13",
       "description": "Check out the universe point finish in this Men's Division Pre-quarterfinal matchup between Minneapolis Sub Zero and Atlanta Chain Lightning at the 2026 Club…",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "top-10-layouts-from-the-2026-wfdf-world-masters-ultimate-clu",
@@ -130,7 +202,7 @@
       "durationSeconds": 162,
       "dateAdded": "2026-11-13",
       "description": "he biggest dives.",
-      "creator": "World Flying Disc Federation"
+      "creator": "WFDF"
     },
     {
       "id": "best-of-classic-city-classic-2026",
@@ -141,7 +213,7 @@
       "durationSeconds": 199,
       "dateAdded": "2026-11-10",
       "description": "The college season is here!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "universe-point-machine-vs-rhino-slam",
@@ -152,7 +224,7 @@
       "durationSeconds": 373,
       "dateAdded": "2026-11-08",
       "description": "Check out the universe point finish in this Men's Division Semifinal matchup between Chicago Machine and Portland Rhino Slam!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "incredible-ultimate-frisbee-catch-at-nationals",
@@ -173,7 +245,7 @@
       "category": "strategy",
       "durationSeconds": 29,
       "dateAdded": "2026-11-08",
-      "creator": "Eric Deng – Ultimate Athlete & Coach 🥏"
+      "creator": "Eric Deng"
     },
     {
       "id": "analysing-canada-s-dominant-win-vs-usa-at-world-juniors",
@@ -195,7 +267,7 @@
       "durationSeconds": 89,
       "dateAdded": "2026-11-07",
       "description": "Check out the universe point finish in this Mixed Division quarterfinal matchup between Chicago Machine and New York PoNY at the 2026 Club National…",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "the-biggest-summer-in-wfdf-history",
@@ -206,7 +278,7 @@
       "durationSeconds": 123,
       "dateAdded": "2026-11-07",
       "description": "🏆 Five World Championships.",
-      "creator": "World Flying Disc Federation"
+      "creator": "WFDF"
     },
     {
       "id": "universe-point-machine-vs-pony",
@@ -217,7 +289,7 @@
       "durationSeconds": 72,
       "dateAdded": "2026-11-06",
       "description": "Check out the universe point finish in this Men's Division quarterfinal matchup between Chicago Machine and New York PoNY at the 2026 Club National…",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "universe-point-fury-vs-brute-squad",
@@ -228,7 +300,7 @@
       "durationSeconds": 153,
       "dateAdded": "2026-11-04",
       "description": "Check out the universe point finish in this Women's Division Semifinal matchup between San Francisco Fury and Boston Brute Squad at the 2026 Club National…",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "quadruped-hip-cars-with-ball-squeeze-behind-knee",
@@ -260,7 +332,7 @@
       "category": "strategy",
       "durationSeconds": 36,
       "dateAdded": "2026-11-01",
-      "creator": "Eric Deng – Ultimate Athlete & Coach 🥏"
+      "creator": "Eric Deng"
     },
     {
       "id": "the-layout-block-that-opened-the-2026-us-nationals-final",
@@ -271,7 +343,7 @@
       "durationSeconds": 520,
       "dateAdded": "2026-10-31",
       "description": "Check out this Game Analysis by Eric Deng from the Men's Club National Final!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "inside-out-presten-berg-of-oregon-scorch",
@@ -282,7 +354,7 @@
       "durationSeconds": 293,
       "dateAdded": "2026-10-30",
       "description": "Check out our interview with Presten Berg of Oregon Scorch on our studio show, Inside Out!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "raleigh-ring-of-fire-are-back-on-top-of-the-ultimate-world",
@@ -292,7 +364,7 @@
       "category": "highlight",
       "durationSeconds": 47,
       "dateAdded": "2026-10-29",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "best-of-club-nationals-finals-2026",
@@ -303,7 +375,7 @@
       "durationSeconds": 208,
       "dateAdded": "2026-10-28",
       "description": "Check out highlights from the Finals of the 2026 Club Championships, presented by Spin Ultimate!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "best-of-club-nationals-semifinals-2026",
@@ -314,7 +386,7 @@
       "durationSeconds": 215,
       "dateAdded": "2026-10-27",
       "description": "Check out highlights from the Semifinals of the 2026 Club Championships, presented by Spin Ultimate!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "best-of-club-nationals-bracket-play-2026",
@@ -325,7 +397,7 @@
       "durationSeconds": 234,
       "dateAdded": "2026-10-26",
       "description": "Check out highlights from Day 2 of the 2026 Club Championships, presented by Spin Ultimate!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "best-of-club-nationals-pool-play-2026",
@@ -336,7 +408,7 @@
       "durationSeconds": 232,
       "dateAdded": "2026-10-25",
       "description": "Check out highlights from Day 1 of the 2026 Club Championships!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "improve-your-top-speed-for-ultimate-frisbee",
@@ -346,7 +418,7 @@
       "category": "strategy",
       "durationSeconds": 35,
       "dateAdded": "2026-10-25",
-      "creator": "Eric Deng – That Ultimate Coach 🥏"
+      "creator": "Eric Deng"
     },
     {
       "id": "healthiest-most-effective-ultimate-frisbee-training-approach",
@@ -379,7 +451,7 @@
       "durationSeconds": 45,
       "dateAdded": "2026-10-24",
       "description": "Check out the universe point finish in this Women's Division Pool Play matchup between Seattle Riot and New York BENT at the 2026 Club National Championships!",
-      "creator": "Ultiworld - Ultimate Frisbee"
+      "creator": "Ultiworld"
     },
     {
       "id": "can-anyone-stop-these-frisbee-champions",
@@ -411,7 +483,8 @@
       "category": "strategy",
       "durationSeconds": 77,
       "dateAdded": "2026-10-18",
-      "creator": "Eric Deng – That Ultimate Coach 🥏"
+      "creator": "Eric Deng",
+      "basics": 3
     },
     {
       "id": "how-canada-won-gold",
@@ -454,7 +527,7 @@
       "category": "strategy",
       "durationSeconds": 63,
       "dateAdded": "2026-10-11",
-      "creator": "Eric Deng – That Ultimate Coach 🥏"
+      "creator": "Eric Deng"
     },
     {
       "id": "15-minutes-of-the-best-layout-goals-from-the-2026-season",
@@ -465,7 +538,7 @@
       "durationSeconds": 904,
       "dateAdded": "2026-10-06",
       "description": "Nothing but pure dimes.",
-      "creator": "UFA Ultimate Frisbee Association"
+      "creator": "UFA"
     },
     {
       "id": "2-september-2026",
@@ -499,7 +572,8 @@
       "durationSeconds": 240,
       "dateAdded": "2026-09-16",
       "description": "Match 2 highlights from season 2 of the Refex Mumbai Ultimate League.",
-      "keep": true
+      "keep": true,
+      "creator": "Off-Season Ultimate"
     },
     {
       "id": "auroville-hat-2015-final",
@@ -510,7 +584,8 @@
       "durationSeconds": 2097,
       "dateAdded": "2026-09-15",
       "description": "The final of the Auroville [[hat-tournament|hat tournament]] in India.",
-      "keep": true
+      "keep": true,
+      "creator": "Daniel Rule"
     },
     {
       "id": "layout-callahan",
@@ -520,7 +595,8 @@
       "category": "play",
       "durationSeconds": 9,
       "dateAdded": "2026-09-10",
-      "description": "A defender lays out for the block in the end zone and scores a [[callahan]]."
+      "description": "A defender lays out for the block in the end zone and scores a [[callahan]].",
+      "creator": "Ultiworld"
     },
     {
       "id": "juengst-layout-callahan",
@@ -530,7 +606,8 @@
       "category": "play",
       "durationSeconds": 27,
       "dateAdded": "2026-08-28",
-      "description": "A full-extension [[layout]] interception in the end zone for a Callahan."
+      "description": "A full-extension [[layout]] interception in the end zone for a Callahan.",
+      "creator": "UFA"
     },
     {
       "id": "game-winning-callahan",
@@ -540,7 +617,8 @@
       "category": "play",
       "durationSeconds": 29,
       "dateAdded": "2026-08-12",
-      "description": "A Callahan on the final point to win the game."
+      "description": "A Callahan on the final point to win the game.",
+      "creator": "Everything Ultimate"
     }
   ]
 }

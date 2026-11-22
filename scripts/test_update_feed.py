@@ -243,6 +243,71 @@ class RunTests(unittest.TestCase):
         _, added, _ = uf.run(client, self.config, self.feed, NOW)
         self.assertEqual(added, [])
 
+    def test_creators_get_the_names_players_see(self):
+        # A YouTube title is tidied, and a renamed channel keeps one name.
+        client = FakeClient({"@ultiworld": ("Ultiworld - Ultimate Frisbee",
+                                            [video("DDDDDDDDDD1", "Layout Callahan to win it")])})
+        _, added, _ = uf.run(client, self.config, self.feed, NOW)
+        self.assertEqual(added[0]["creator"], "Ultiworld")
+        feed = json.loads(json.dumps(self.feed))
+        feed["videos"][0]["creator"] = "Eric Deng – That Ultimate Coach 🥏"
+        new_feed, _, _ = uf.run(FakeClient({}), self.config, feed, NOW)
+        self.assertEqual(new_feed["videos"][0]["creator"], "Eric Deng")
+        self.assertEqual(new_feed["version"], "2026.09.17", "a tidied name is a change")
+        # A channel's own creator wins over its title.
+        self.assertEqual(uf.creator_name(self.config, "Anything", {"creator": "Own name"}), "Own name")
+
+    def test_a_video_added_by_hand_gets_its_creator(self):
+        feed = json.loads(json.dumps(self.feed))
+        target = feed["videos"][0]
+        target.pop("creator", None)
+        target_id = uf.youtube_id_from_url(target["embedURL"])
+
+        class TitleClient(FakeClient):
+            def channel_titles(self, ids):
+                return {target_id: "World Flying Disc Federation"}
+
+        new_feed, _, _ = uf.run(TitleClient({}), self.config, feed, NOW)
+        self.assertEqual(new_feed["videos"][0]["creator"], "WFDF")
+
+    def test_basics_are_kept_apart_from_the_trim(self):
+        basics = [{"id": f"b{i}", "category": "strategy", "dateAdded": "2025-01-01", "basics": i + 1}
+                  for i in range(4)]
+        rest = [{"id": f"h{i}", "category": "highlight", "dateAdded": f"2026-02-0{i + 1}"} for i in range(6)]
+        kept, removed = uf.trim_feed(basics + rest, max_size=5, protect_since="2026-09-01",
+                                     min_per_category={"strategy": 2})
+        # Every basic stays, the size counts only the rest, and the basics do
+        # not fill the strategy floor for the videos that rotate.
+        self.assertEqual(sum(1 for v in kept if v.get("basics")), 4)
+        self.assertEqual(sum(1 for v in kept if not v.get("basics")), 5)
+        self.assertEqual([v["id"] for v in removed], ["h0"])
+
+    def test_basics_must_have_a_place(self):
+        def errors(value):
+            feed = {"version": "2026.09.17", "videos": [{
+                "id": "x", "title": "T", "embedURL": "https://www.youtube.com/watch?v=AAAAAAAAAA1",
+                "platform": "youtube", "category": "strategy", "dateAdded": "2026-09-17", "basics": value}]}
+            return uf.validate(feed)
+        self.assertEqual(errors(3), [])
+        self.assertTrue(errors(True))
+        self.assertTrue(errors(0))
+
+    def test_creators_keep_their_pictures(self):
+        class PictureClient(FakeClient):
+            def uploads_playlist(self, channel):
+                found = super().uploads_playlist(channel)
+                return found and (*found, "https://yt3.ggpht.com/abc=s240")
+
+        client = PictureClient({"@ultiworld": ("Ultiworld - Ultimate Frisbee",
+                                               [video("DDDDDDDDDD1", "Layout Callahan to win it")])})
+        feed = json.loads(json.dumps(self.feed))
+        feed["creators"] = {"Gone": {"avatar": "https://yt3.ggpht.com/old"}}
+        new_feed, _, _ = uf.run(client, self.config, feed, NOW)
+        # The new creator's picture is kept, and one with no video left goes.
+        self.assertEqual(new_feed["creators"], {"Ultiworld": {"avatar": "https://yt3.ggpht.com/abc=s240"}})
+        self.assertEqual(uf.validate(new_feed), [])
+        self.assertTrue(uf.validate({**new_feed, "creators": {"X": {"avatar": "https://evil.example/x.png"}}}))
+
     def test_missing_channel_is_skipped(self):
         new_feed, added, removed = uf.run(FakeClient({}), self.config, self.feed, NOW)
         self.assertEqual(added, [])

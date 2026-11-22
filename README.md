@@ -49,10 +49,23 @@ Embeds only: the feed stores links and metadata. Nothing downloads or re-hosts v
 | `maxDurationSecondsByCategory` | A longer ceiling for one category. Strategy gets 45 minutes: film study and breakdowns routinely pass the 20 minutes that suits a highlight reel, and a single ceiling silently rejected exactly the category the feed was short of. Before a video is categorised the loosest ceiling applies, so nothing is thrown out before anyone asks what it is |
 | `requireAnyKeyword` / `excludeKeywords` | Must mention ultimate (title or description); skips streams, podcasts, promos and disc golf. Excluded words are checked in the **title only**: channels repeat promo text under every upload |
 | `categoryKeywords` | Title/description words that pick Strategy, Highlight or Play (checked in that order) |
+| `creatorNames` | YouTube channel titles and the names players see ("Ultiworld - Ultimate Frisbee" → "Ultiworld"). Applied to every video on every run, so when a channel renames itself, add its new title here with the same name. A channel entry's own `creator` wins over this |
 | `blockedVideoIds` | YouTube ids to remove now and never add again |
 | `maxFeedSize` / `protectRecentDays` | Keeps ~50 videos, dropping the oldest but never anything from the last week |
 
 To keep a hand-picked video permanently, add `"keep": true` to its entry in `videos.json`.
+
+**Creators' pictures** (`creators` at the top of `videos.json`) are written by
+the script: each channel's own picture, from YouTube's image servers, which
+the app's row of creators shows. A creator with no picture (a video added by
+hand from a channel not listed here) shows their initials instead.
+
+**The basics** are the app's "The basics, always here" shelf: fundamentals that
+never age out. Give an entry `"basics": n`, its place on the shelf from 1
+(throws, then offence, then defence). Basics are never trimmed and do not count
+towards `maxFeedSize` or the category floors, so adding one never pushes a new
+video out, and adding one does not start strategy's weekly batch. A video added
+by hand needs no length or creator: the next run looks both up.
 To fix a wrong category or title, just edit `videos.json`; the script never rewrites existing entries.
 
 ## Keeping the app's offline copy in sync
