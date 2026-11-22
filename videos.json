@@ -1,6 +1,39 @@
 {
-  "version": "2026.11.19",
+  "version": "2026.11.22",
   "videos": [
+    {
+      "id": "how-to-play-defense",
+      "title": "How to Play Defense",
+      "embedURL": "https://www.youtube.com/watch?v=mtdfbMe8WmQ",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 203,
+      "dateAdded": "2026-11-22",
+      "description": "Learn how to become a lockdown defender from some of the best in the game!",
+      "creator": "Ultiworld - Ultimate Frisbee"
+    },
+    {
+      "id": "i-studied-mac-hecht-s-throws-here-s-what-he-does-differently",
+      "title": "I Studied Mac Hecht’s Throws. Here’s What He Does Differently.",
+      "embedURL": "https://www.youtube.com/watch?v=_sLI5qxBtyY",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 578,
+      "dateAdded": "2026-11-22",
+      "description": "Level up your ultimate game:",
+      "creator": "Eric Deng – Ultimate Athlete & Coach 🥏"
+    },
+    {
+      "id": "ultimate-players-make-this-mistake-all-the-time",
+      "title": "Ultimate Players Make This Mistake All The Time",
+      "embedURL": "https://www.youtube.com/watch?v=l5EB1mnHhVY",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 147,
+      "dateAdded": "2026-11-22",
+      "description": "Less Pain, More Power for Ultimate Frisbee:",
+      "creator": "Brian Nevison"
+    },
     {
       "id": "universe-point-machine-vs-furious-george",
       "title": "Universe Point: Machine vs. Furious George",
@@ -424,28 +457,6 @@
       "creator": "Eric Deng – That Ultimate Coach 🥏"
     },
     {
-      "id": "learn-this-trick-throw",
-      "title": "Learn This Trick Throw",
-      "embedURL": "https://www.youtube.com/watch?v=hxKkMN_tazs",
-      "platform": "youtube",
-      "category": "strategy",
-      "durationSeconds": 60,
-      "dateAdded": "2026-10-11",
-      "description": "Do you want to be an elite thrower?",
-      "creator": "Rowan McDonnell"
-    },
-    {
-      "id": "universe-point-slow-vs-sprocket-northeast-regionals-2nd-plac",
-      "title": "Universe Point: Slow vs. Sprocket - Northeast Regionals 2nd Place Final",
-      "embedURL": "https://www.youtube.com/watch?v=jlel3VfJ_L0",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 71,
-      "dateAdded": "2026-10-06",
-      "description": "Check out the universe point finish in this Mixed Division Second Place Final (Game to go to Nationals) between Boston Slow and Boston Sprocket at the 2026…",
-      "creator": "Ultiworld - Ultimate Frisbee"
-    },
-    {
       "id": "15-minutes-of-the-best-layout-goals-from-the-2026-season",
       "title": "15 minutes of the BEST layout goals from the 2026 season",
       "embedURL": "https://www.youtube.com/watch?v=LwMMMg7fIxQ",
@@ -454,16 +465,6 @@
       "durationSeconds": 904,
       "dateAdded": "2026-10-06",
       "description": "Nothing but pure dimes.",
-      "creator": "UFA Ultimate Frisbee Association"
-    },
-    {
-      "id": "20-year-old-elliot-hawkins-ripping-the-frisbee",
-      "title": "20-year-old Elliot Hawkins ripping the frisbee",
-      "embedURL": "https://www.youtube.com/watch?v=RG68Vi0SROQ",
-      "platform": "youtube",
-      "category": "highlight",
-      "durationSeconds": 35,
-      "dateAdded": "2026-10-05",
       "creator": "UFA Ultimate Frisbee Association"
     },
     {
