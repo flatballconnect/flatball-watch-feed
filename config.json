@@ -1,9 +1,9 @@
 {
   "_comment": "Rules for the daily Watch feed update. Edit this file, not the script. Channels may override maxAgeDays, minDurationSeconds, maxDurationSeconds, maxDurationSecondsByCategory and excludeKeywords, and set requireKeywords=false for ultimate-only channels, and a creator to name the channel on every card. creatorNames tidies YouTube channel titles into the names players see, and keeps one name when a channel renames itself. categoryEveryDays makes a category refresh in a batch every so many days (strategy weekly) instead of daily.",
   "timezone": "Asia/Kolkata",
-  "maxFeedSize": 50,
-  "maxNewPerRun": 5,
-  "maxNewPerChannelPerRun": 1,
+  "maxFeedSize": 80,
+  "maxNewPerRun": 10,
+  "maxNewPerChannelPerRun": 2,
   "maxAgeDays": 14,
   "protectRecentDays": 7,
   "minDurationSeconds": 20,
@@ -81,6 +81,61 @@
       "defaultCategory": "strategy",
       "maxAgeDays": 90,
       "minDurationSeconds": 60
+    },
+    {
+      "name": "Kurt Gibson",
+      "channelId": "UC7zs8ZfTGr21aOoIbqLXJWg",
+      "creator": "Kurt Gibson",
+      "defaultCategory": "strategy",
+      "maxAgeDays": 90
+    },
+    {
+      "name": "TOBU Fitness",
+      "channelId": "UCLSr9QKG7RKhrnNp86xmaDA",
+      "creator": "TOBU Fitness",
+      "defaultCategory": "strategy",
+      "maxAgeDays": 60,
+      "minDurationSeconds": 60
+    },
+    {
+      "name": "Advanced Ultimate Coaching",
+      "channelId": "UCuVu8FH52mqMSAooix_oSXQ",
+      "creator": "Advanced Ultimate Coaching",
+      "defaultCategory": "strategy",
+      "maxAgeDays": 365,
+      "minDurationSeconds": 60
+    },
+    {
+      "name": "Disc In",
+      "channelId": "UCHWKLacy7CKsTtYjtqllZVw",
+      "creator": "Disc In",
+      "defaultCategory": "strategy",
+      "maxAgeDays": 365,
+      "minDurationSeconds": 60
+    },
+    {
+      "name": "The Ultimate Athlete Project",
+      "channelId": "UCKoieWVgzDwaQAlEZKULp0g",
+      "creator": "The Ultimate Athlete Project",
+      "defaultCategory": "strategy",
+      "maxAgeDays": 730,
+      "minDurationSeconds": 60
+    },
+    {
+      "name": "Premier Ultimate League",
+      "channelId": "UCGnmb_iopvoBGk3ruc44iXw",
+      "creator": "PUL",
+      "defaultCategory": "highlight",
+      "requireKeywords": false,
+      "maxAgeDays": 120
+    },
+    {
+      "name": "Western Ultimate League",
+      "channelId": "UCf92vnWpuHBdJINR3cAlXaA",
+      "creator": "WUL",
+      "defaultCategory": "highlight",
+      "requireKeywords": false,
+      "maxAgeDays": 120
     }
   ],
   "requireAnyKeyword": [
@@ -198,14 +253,14 @@
     "Z426bcY01h8"
   ],
   "maxNewPerCategoryPerRun": {
-    "strategy": 3,
-    "play": 1,
-    "highlight": 2
+    "strategy": 8,
+    "play": 2,
+    "highlight": 4
   },
   "minPerCategory": {
-    "strategy": 14,
-    "play": 8,
-    "highlight": 14
+    "strategy": 24,
+    "play": 12,
+    "highlight": 24
   },
   "maxDurationSecondsByCategory": {
     "strategy": 2700

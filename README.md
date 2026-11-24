@@ -41,7 +41,7 @@ Embeds only: the feed stores links and metadata. Nothing downloads or re-hosts v
 |---|---|
 | `channels` | Trusted channels, by `handle`, `username` or `channelId`, with a `defaultCategory`. Each can override `maxAgeDays`, `minDurationSeconds`, `maxDurationSeconds`, `maxDurationSecondsByCategory` and `excludeKeywords`, and set `requireKeywords: false` for ultimate-only channels (used for India Ultimate and Off-Season Ultimate, whose titles may be in Hindi or hashtags only). A channel that does not resolve is logged as `! channel not found` and skipped — a wrong handle costs nothing but a log line |
 | `maxNewPerRun` / `maxNewPerChannelPerRun` | How many videos can be added per day, overall and per channel |
-| `maxNewPerCategoryPerRun` | **Reserved slots per category per day.** Highlight channels upload most days and coaching channels upload most weeks, so without this the newest-first fill gives every slot to highlights. Strategy holds 3, play 1, highlight 2 — an unused strategy slot is simply not filled rather than handed to a highlight |
+| `maxNewPerCategoryPerRun` | **Reserved slots per category per day.** Highlight channels upload most days and coaching channels upload most weeks, so without this the newest-first fill gives every slot to highlights. Strategy holds 8, play 2, highlight 4 (raised from 3, 1 and 2 on 24 November 2026, with the bigger feed) — an unused strategy slot is simply not filled rather than handed to a highlight |
 | `categoryEveryDays` | A category that refreshes in a batch every so many days instead of daily. Strategy is `7`: up to `maxNewPerCategoryPerRun.strategy` new coaching videos once a week |
 | `minPerCategory` | **Floors inside `maxFeedSize`.** The trim drops oldest-first, which over a couple of months grinds the slow-publishing category out of the feed however well the per-run quotas worked. A category at its floor is not trimmed |
 | `maxAgeDays` | Only consider uploads newer than this |
@@ -51,7 +51,7 @@ Embeds only: the feed stores links and metadata. Nothing downloads or re-hosts v
 | `categoryKeywords` | Title/description words that pick Strategy, Highlight or Play (checked in that order) |
 | `creatorNames` | YouTube channel titles and the names players see ("Ultiworld - Ultimate Frisbee" → "Ultiworld"). Applied to every video on every run, so when a channel renames itself, add its new title here with the same name. A channel entry's own `creator` wins over this |
 | `blockedVideoIds` | YouTube ids to remove now and never add again |
-| `maxFeedSize` / `protectRecentDays` | Keeps ~50 videos, dropping the oldest but never anything from the last week |
+| `maxFeedSize` / `protectRecentDays` | Keeps ~80 videos (50 until 24 November 2026), dropping the oldest but never anything from the last week |
 
 To keep a hand-picked video permanently, add `"keep": true` to its entry in `videos.json`.
 

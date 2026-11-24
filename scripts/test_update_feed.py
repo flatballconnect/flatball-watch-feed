@@ -170,10 +170,13 @@ class RunTests(unittest.TestCase):
                        published=f"2026-09-1{i}T00:00:00Z") for i in range(5)]
         client = FakeClient({"@watchUFAtv": ("UFA", items)})
         new_feed, added, removed = uf.run(client, self.config, self.feed, NOW)
-        # Five eligible highlights, but highlight is capped at 2 a run. The old
-        # behaviour took maxNewPerRun of whatever arrived first, which is how
-        # highlights came to outnumber strategy better than two to one.
-        self.assertEqual(len(added), 2)
+        # Five eligible highlights, but highlight is capped below that each
+        # run (4 since 24 November 2026). The old behaviour took maxNewPerRun
+        # of whatever arrived first, which is how highlights came to outnumber
+        # strategy better than two to one.
+        cap = self.config["maxNewPerCategoryPerRun"]["highlight"]
+        self.assertLess(cap, len(items))
+        self.assertEqual(len(added), cap)
         self.assertTrue(all(a["category"] == "highlight" for a in added))
         self.assertEqual(len(new_feed["videos"]), 11)         # trimmed to cap
         self.assertTrue(all(r["dateAdded"] < "2026-09-10" for r in removed))  # recent ones protected
@@ -195,7 +198,9 @@ class RunTests(unittest.TestCase):
         _, added, _ = uf.run(client, self.config, self.feed, NOW)
         by_category = {a["category"] for a in added}
         self.assertIn("strategy", by_category)
-        self.assertEqual(sum(a["category"] == "highlight" for a in added), 2)
+        cap = self.config["maxNewPerCategoryPerRun"]["highlight"]
+        self.assertLess(cap, len(floods))
+        self.assertEqual(sum(a["category"] == "highlight" for a in added), cap)
 
     def test_strategy_may_run_long(self):
         """Film study routinely passes 20 minutes. Under the single old ceiling
