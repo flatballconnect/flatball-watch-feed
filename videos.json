@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.22",
+  "version": "2026.11.24",
   "creators": {
     "Brian Nevison": {
       "avatar": "https://yt3.ggpht.com/94uH3ZB9jYxhdNO4WFrUIeYupKwZ5Buap0z0RqZF0l4bRsexgIuYl-IJwDJDcCID1ccVMSM_=s240-c-k-c0x00ffffff-no-rj"
@@ -9,6 +9,9 @@
     },
     "Hive Ultimate": {
       "avatar": "https://yt3.ggpht.com/GL6FVA_JYcJ8IQqSeyED1gpC4F6s-JTkMqDPEngnmbQsImWdRwM62Yew16KObxC8FbC1fFHjXA=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "Kurt Gibson": {
+      "avatar": "https://yt3.ggpht.com/FMpZ0-H73cKkrp78xRaVf_0kwYCALu5s_Aeyja6wl8LtGEAN9MfLD9twCZMactbMiFPOqbxu=s240-c-k-c0x00ffffff-no-rj"
     },
     "Off-Season Ultimate": {
       "avatar": "https://yt3.ggpht.com/iuV6Nhrb305n3MMc9anQc-k9LpW2bigXqeMnyrMPOK0uAVWmsZUhkijzy1ZNsFJY81XuVzhDXA=s240-c-k-c0x00ffffff-no-rj"
@@ -30,9 +33,45 @@
     },
     "WFDF": {
       "avatar": "https://yt3.ggpht.com/cEH8L-t3vp7paTidrLpU6YoPgtnT37n2GvvD2oshJgiV61z-LfLmcFaMIklw-jnwcKsOfMm3bw=s240-c-k-c0x00ffffff-no-rj"
+    },
+    "WUL": {
+      "avatar": "https://yt3.ggpht.com/NrlKaGJJ3lY_hapGve-XqLu67Yta_KYDX_eVkZzPUZTuQa9-6bJm3wwZlVV_ui2502JjIR7m=s240-c-k-c0x00ffffff-no-rj"
     }
   },
   "videos": [
+    {
+      "id": "usa-ultimate-national-championships-men-s-division-day-3-rec",
+      "title": "USA Ultimate National Championships Men's Division Day 3 Recap",
+      "embedURL": "https://www.youtube.com/watch?v=SO6ayu98pww",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 347,
+      "dateAdded": "2026-11-24",
+      "description": "I give a brief recap of day 3 of the Men’s Division at the USA Ultimate National Championships.",
+      "creator": "Kurt Gibson"
+    },
+    {
+      "id": "usa-ultimate-national-championships-men-s-division-day-2-rec",
+      "title": "USA Ultimate National Championships Men's Division Day 2 Recap",
+      "embedURL": "https://www.youtube.com/watch?v=Dz1dg9uwKug",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 371,
+      "dateAdded": "2026-11-24",
+      "description": "I give a brief recap of day 2 of the Men’s Division at the USA Ultimate National Championships.",
+      "creator": "Kurt Gibson"
+    },
+    {
+      "id": "2026-wul-vs-pul-all-star-promo",
+      "title": "2026 WUL vs PUL All-Star Promo",
+      "embedURL": "https://www.youtube.com/watch?v=FKfoV83oAjw",
+      "platform": "youtube",
+      "category": "highlight",
+      "durationSeconds": 61,
+      "dateAdded": "2026-11-24",
+      "description": "The rivalry is back.",
+      "creator": "WUL"
+    },
     {
       "id": "i-studied-mac-hecht-s-throws-here-s-what-he-does-differently",
       "title": "I Studied Mac Hecht’s Throws. Here’s What He Does Differently.",
