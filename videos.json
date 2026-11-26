@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.24",
+  "version": "2026.11.26",
   "creators": {
     "Brian Nevison": {
       "avatar": "https://yt3.ggpht.com/94uH3ZB9jYxhdNO4WFrUIeYupKwZ5Buap0z0RqZF0l4bRsexgIuYl-IJwDJDcCID1ccVMSM_=s240-c-k-c0x00ffffff-no-rj"
@@ -42,6 +42,42 @@
     }
   },
   "videos": [
+    {
+      "id": "3-key-principles-of-the-wfdf-rules-of-ultimate",
+      "title": "3 Key Principles of the WFDF Rules of Ultimate",
+      "embedURL": "https://www.youtube.com/watch?v=4fLn1IvbAoo",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 234,
+      "dateAdded": "2026-11-26",
+      "description": "WFDF Ultimate Rules Subcommittee Chair Rueben Berg on three key principles of the rules: what to do when contact happens, everyone has a different perspective, and the rules give preference to the offense.",
+      "creator": "WFDF",
+      "basics": 1
+    },
+    {
+      "id": "how-to-catch-a-frisbee-for-beginners",
+      "title": "How to Catch a Frisbee for Beginners",
+      "embedURL": "https://www.youtube.com/watch?v=imBI1iTeCZc",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 273,
+      "dateAdded": "2026-11-26",
+      "description": "The two best techniques for catching a frisbee, and one trick for catching with one hand, from Rowan McDonnell and AJ Merriman.",
+      "creator": "Excel Ultimate",
+      "basics": 5
+    },
+    {
+      "id": "how-to-pull-a-disc-in-ultimate-frisbee",
+      "title": "How to Pull a Disc in Ultimate Frisbee",
+      "embedURL": "https://www.youtube.com/watch?v=5OVUp1iT8kg",
+      "platform": "youtube",
+      "category": "strategy",
+      "durationSeconds": 310,
+      "dateAdded": "2026-11-26",
+      "description": "Tips on how to improve your pulls, an essential skill for any team's D-line.",
+      "creator": "Jonny Malks",
+      "basics": 13
+    },
     {
       "id": "usa-ultimate-national-championships-men-s-division-day-3-rec",
       "title": "USA Ultimate National Championships Men's Division Day 3 Recap",
@@ -118,7 +154,7 @@
       "dateAdded": "2026-11-22",
       "description": "Learn how to become a lockdown defender from some of the best in the game!",
       "creator": "Ultiworld",
-      "basics": 7
+      "basics": 9
     },
     {
       "id": "how-to-throw-a-backhand-in-ultimate-frisbee-all-backhand-thr",
@@ -128,7 +164,7 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 2,
+      "basics": 3,
       "durationSeconds": 1129
     },
     {
@@ -139,7 +175,7 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 4,
+      "basics": 6,
       "durationSeconds": 202
     },
     {
@@ -150,7 +186,7 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 5,
+      "basics": 7,
       "durationSeconds": 1500
     },
     {
@@ -161,7 +197,7 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "TOBU Fitness",
-      "basics": 6,
+      "basics": 8,
       "durationSeconds": 447
     },
     {
@@ -172,7 +208,7 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 8,
+      "basics": 10,
       "durationSeconds": 282
     },
     {
@@ -183,7 +219,7 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Frisbee Rob",
-      "basics": 9,
+      "basics": 11,
       "durationSeconds": 323
     },
     {
@@ -194,7 +230,7 @@
       "category": "strategy",
       "dateAdded": "2026-11-22",
       "creator": "Ultimate101",
-      "basics": 10,
+      "basics": 12,
       "durationSeconds": 342
     },
     {
@@ -261,7 +297,7 @@
       "dateAdded": "2026-11-15",
       "description": "Learn how to throw a flat forehand and backhand in ultimate frisbee.",
       "creator": "Ultimate101",
-      "basics": 1
+      "basics": 2
     },
     {
       "id": "universe-point-nightlock-vs-parcha",
@@ -587,7 +623,7 @@
       "durationSeconds": 77,
       "dateAdded": "2026-10-18",
       "creator": "Eric Deng",
-      "basics": 3
+      "basics": 4
     },
     {
       "id": "this-one-point-at-frisbee-worlds-had-everything",

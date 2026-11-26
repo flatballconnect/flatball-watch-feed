@@ -62,7 +62,7 @@ hand from a channel not listed here) shows their initials instead.
 
 **The basics** are the app's "The basics, always here" shelf: fundamentals that
 never age out. Give an entry `"basics": n`, its place on the shelf from 1
-(throws, then offence, then defence). Basics are never trimmed and do not count
+(the rules, throws, catching, offence, defence, then the pull). Basics are never trimmed and do not count
 towards `maxFeedSize` or the category floors, so adding one never pushes a new
 video out, and adding one does not start strategy's weekly batch. A video added
 by hand needs no length or creator: the next run looks both up.
